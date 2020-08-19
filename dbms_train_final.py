@@ -8,10 +8,6 @@ class train:                  # creating train class
         self.frame1=Frame(root,width=3000,height=3000)          # creating the frame
         self.frame1.propagate(0)
         self.frame1.pack()
-        self.T1 = Text(self.frame1, width=1000, height=1000)
-        self.image1=PhotoImage(file="E:\mohan\Train\\train1.png")
-        self.T1.image_create(END,image=self.image1)
-        self.T1.pack()
         self.T2=Text(width=500,height=2,font=('edwardian script itc',40,'bold'),fg='black',bg='#706a5b')
         self.T2.insert(END,'                                            Welcome To  \n                                  Railway Tourism Corporation')
         self.T2.place(x=0,y=0)
